@@ -1,13 +1,28 @@
 // Include library the library
 @import  'lib/lib', '_config';
 
-// Include common style rules.
-@import 'common/reset', 'common/base', 'common/layout', 'common/typography', 'common/font-face', 'common/mobile';
+// Include common/custom style rules.
+@import 	'custom/reset',
+			'custom/font-face',
+			'custom/typography',
+			'custom/layout',
+			'custom/phi',
+			'custom/additional',
+			'custom/lightbox',
+			'custom/styles_temp',
+			'custom/mobile'
+			;
+			
+// 'common/base', 'common/mobile'
 
 // Include Desired Web-Component Package(s)
 @import 'lib/packages/buttons', 'lib/packages/navigation', 'lib/packages/grid';
 
+// Include Custom styles
+//@import 'custom/font-face';
+
 // Example.html styles
+
 html {
 	
 	

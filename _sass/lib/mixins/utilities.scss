@@ -20,7 +20,7 @@
 	@else if $type == 'table' {
 		
 //		@if ie(6) or ie(7) {
-//			behavior: url(#{$ie-behaviours-path}display-table/display-table.min.htc);
+//			behavior: url(#{$ie-behaviors-path}display-table/display-table.min.htc);
 //			-dt-display: table;
 //		}
 		
@@ -29,7 +29,7 @@
 	@else if $type == 'table-row' {
 		
 //		@if ie(6) or ie(7) {
-//			behavior: url(#{$ie-behaviours-path}display-table/display-table.min.htc);
+//			behavior: url(#{$ie-behaviors-path}display-table/display-table.min.htc);
 //			-dt-display: table-row;
 //		}
 		
@@ -38,7 +38,7 @@
 	@else if $type == 'table-cell' {
 		
 //		@if ie(6) or ie(7) {
-//			behavior: url(#{$ie-behaviours-path}display-table/display-table.min.htc);
+//			behavior: url(#{$ie-behaviors-path}display-table/display-table.min.htc);
 //			-dt-display: table-cell;
 //		}
 		

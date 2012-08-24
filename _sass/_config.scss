@@ -4,7 +4,7 @@ $output-package-classes:	false; // Output generic classes for use in HTML templa
 
 // Asset Paths
 
-$styles-absolute-path:		'/grid/';
+$styles-absolute-path:		'/';
 $styles-relative-path:		'../';
 
 $css-absolute-path:			$styles-absolute-path + 'css/';
@@ -13,8 +13,8 @@ $css-relative-path:			'.';
 $fonts-relative-path:		$styles-relative-path + 'fonts/';
 $fonts-absolute-path:		$styles-absolute-path + 'fonts/';
 
-$images-relative-path:		$styles-relative-path + 'images/';
-$images-absolute-path:		$styles-absolute-path + 'images/';
+$images-relative-path:		$styles-relative-path + '../images/';
+$images-absolute-path:		$styles-absolute-path + '../images/';
 
 
 
@@ -34,7 +34,7 @@ $vendor-prefixes:			-webkit, -moz, -ms, -o, -khtml; // Extra vendor prefixs: mso
 $support-ie-versions:		6, 7, 8;
 
 // IE uses relative paths from the HTML file. Since we can't be certain of the HTML location, we must use absolute paths. Be sure that the $styles-absolute-path variable is set correctly
-$ie-behaviours-path:		$styles-absolute-path + 'ie-behaviors/';
+$ie-behaviors-path:		$styles-absolute-path + 'ie-behaviors/';
 
 
 

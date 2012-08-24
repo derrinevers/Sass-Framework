@@ -13,7 +13,7 @@
 	@include with-vendor-prefixes(border-radius, $value, $prefixes);
 	
 	@if ie(6) or ie(7) or ie(8) {
-//		*behavior: url(#{$ie-behaviours-path}pie/PIE.htc);
+//		*behavior: url(#{$ie-behaviors-path}pie/PIE.htc);
 	}
 }
 
@@ -22,7 +22,7 @@
 	@include with-vendor-prefixes(box-shadow, $value, $prefixes);
 	
 	@if ie(6) or ie(7) or ie(8) {
-//		*behavior: url(#{$ie-behaviours-path}pie/PIE.htc);
+//		*behavior: url(#{$ie-behaviors-path}pie/PIE.htc);
 	}
 }
 
@@ -124,7 +124,7 @@
 	}
 	
 	@if ie(6) or ie(7) or ie(8) {
-//		*behavior: url(#{$ie-behaviours-path}pie/PIE.htc);
+//		*behavior: url(#{$ie-behaviors-path}pie/PIE.htc);
 	}
 	
 }
